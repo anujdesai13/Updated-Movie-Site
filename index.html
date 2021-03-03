@@ -1,0 +1,303 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Movies Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--icon-fav---------->
+    <link rel="shortcut icon" href="images/icon fav.png">
+    <!--using FontAwesome--------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous">
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="images/logo.png" />
+        </a>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Hollywood</a></li>
+            <li><a href="#">Horror</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies" />
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <section id="main">
+    <!--showcase----------------------->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://en.wikipedia.org/wiki/Godzilla_(2014_film)" target="_blank"><img
+                            class="d-block w-100" src="images/s-1.jpg" alt="First slide"></a>
+
+                </div>
+                <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Star_Wars" target="_blank"><img class="d-block w-100"
+                            src="images/s-2.jpg" alt="Second slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(2017_film)" target="_blank"><img
+                            class="d-block w-100" src="images/s-3.jpg" alt="Third slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Ready_Player_One_(film)" target="_blank"><img
+                            class="d-block w-100" src="images/s-4.jpg" alt="Fourth slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road" target="_blank"><img
+                            class="d-block w-100" src="images/s-5.png" alt="Fifth slide"></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--latest-movies---------------------->
+        <section id="latest" >
+        <h2 class="latest-heading">Latest Movies</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Kin_(film)" target="_blank"><img
+                                    class="d-block w-100" src="images/m-1.jpg" alt="Fifth slide">
+                                    <strong> KIN </strong>
+                                    <p> ACTION MOVIE </p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Peninsula_(film)" target="_blank"><img
+                                    class="d-block w-100" src="images/m-2.jpg" alt="Fifth slide">
+                                    <strong> PENINSULA </strong>
+                                    <p>ACTION MOVIE</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Inception" target="_blank"><img
+                                    class="d-block w-100" src="images/m-3.jpg" alt="Fifth slide">
+                                    <strong>INCEPTION</strong>
+                                    <p>SCI-FIC MOVIE</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Iron_Man_3" target="_blank"><img
+                                    class="d-block w-100" src="images/m-4.jpg" alt="Fifth slide">
+                                    <strong>IRON MAN-3</strong>
+                                    <p>ACTION MOVIE</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Venom_(2018_film)" target="_blank"><img
+                                    class="d-block w-100" src="images/m-5.jpg" alt="Fifth slide">
+                                    <strong>VENOM</strong>
+                                    <p>ACTION MOVIE</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Aquaman_(film)" target="_blank"><img
+                                    class="d-block w-100" src="images/m-6.jpg" alt="Fifth slide">
+                                    <strong>AQUAMAN</strong>
+                                    <p>ACTION MOVIE</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Jungle_Cruise_(film)" target="_blank"><img
+                                    class="d-block w-100" src="images/m-7.jpeg" alt="Fifth slide">
+                                    <strong>JUNGLE CRUISE</strong>
+                                    <p>ADVENTURE MOVIE</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Fury_(2014_film)" target="_blank"><img
+                                    class="d-block w-100" src="images/m-8.png" alt="Fifth slide">
+                                    <h3>FURY</h3>
+                                    <p>ACTION MOVIE</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="https://en.wikipedia.org/wiki/Act_of_Valor" target="_blank"><img
+                                    class="d-block w-100" src="images/m-9.jpg" alt="Fifth slide">
+                                     <h3>ACT OF VALOR</h3>
+                                     <p>ACTION MOVIE</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--movies---------------------------->
+        <div class="movies-heading">
+            <h2>Movies</h2>
+        </div>
+        <section id="movies-list">
+            <!--box-1------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-1.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    INTO DARKNESS Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-2------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-2.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    FANTASTIC BEASTS Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-3------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-3.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    CROODS Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-4------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-4.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    TOY STORY 3 Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-5------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-5.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    COCO Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-6------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-6.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    STAR WARS Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-7------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-7.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    ROUGH ONE Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+            <!--box-8------------------------>
+            <div class="movies-box">
+                <!--img------------>
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-8.jpg">
+                </div>
+                <!--text--------->
+                <a href="#">
+                    VENOM Full Movie[In English] With English Subtitles | HDRip 1080p HD
+                </a>
+            </div>
+        </section>
+        <!--btns--------------->
+        <div class="btns">
+            <a href="#">Previous</a>
+            <a href="#">Next</a>
+        </div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
